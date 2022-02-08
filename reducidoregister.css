@@ -691,21 +691,9 @@ button:not(:disabled),
   }
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
 .d-grid {
   display: -ms-grid !important;
   display: grid !important;
-}
-
-.min-vh-100 {
-  min-height: 100vh !important;
 }
 
 .justify-content-center {
@@ -721,11 +709,6 @@ button:not(:disabled),
 /* rtl:begin:remove */
 
 /* rtl:end:remove */
-
-.text-white {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
-}
 
 .bg-transparent {
   --bs-bg-opacity: 1;
